@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.converter__section {
+    width: 587px;
+    margin: auto;
+}
+
+.converter__section .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 56px;
+    margin-bottom: 33px;
+}
+
+.converter__section .article__content { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.converter__section .article__content .container {
+    width: 259px;
+    /* margin-right: 123px; */
+}
+
+.converter__section .article__content .container .paragraph {
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    color: #9F9F9F;
+    margin-top: 0;
+}
+
+.converter__section .article__content .container .currency__container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.converter__section .article__content .container .currency__container .currency {
+    padding: 10px 19px 10px 19px;
+    font-size: 13px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.converter__section .article__content .container .currency__input {
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+.converter__section .article__content .container .currency__input .currency__cours {
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+    padding-left: 3px;
+ }
+
+ .converter__section .article__content .container .currency__input .number__class {
+    width: 98%;
+    border: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+ 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+
+
+.converter__section .article__content .container .currency__container .currency:hover {
+    background: #6202e0;
+    color: white;
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+}
+
+.information__section:hover {
+    color: #910808;
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.converter__main .converter__header .header__content .title__button .button:hover {
+    color: #910808;
+    box-shadow: 0px 0px 100px rgb(145, 11, 11);
+    outline: 1px solid rgb(145, 11, 11);
+    cursor: pointer;
+}
+
+.converter__section .article__content .container .currency__container .button__js {
+    padding: 10px 19px 10px 19px;
+    font-size: 13px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: #833AE0;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
